@@ -1,6 +1,6 @@
 Example Voting App
 =========
-"Line added by salshiekh"
+"Line added by SALSHIEKH"
 Getting started
 ---------------
 
