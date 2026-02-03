@@ -1,6 +1,3 @@
-<<<<<<< HEAD
- 
-=======
 pipeline {
     agent{
 	docker{
@@ -39,4 +36,3 @@ fingerprint: true
         }
     }
 }
->>>>>>> d2d20cb (add docker based agent)
