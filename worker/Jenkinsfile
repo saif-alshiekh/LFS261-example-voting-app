@@ -38,12 +38,11 @@ fingerprint: true
 				docker.build("salshiekh/worker:v${env.BUILD_ID}", "./worker")
 				workerImage.push()
 				workerImage.push("latest")
+				}
 			}
 		}
 	}
-
-    } 
-
+    }
     post{
         always{
             echo 'the job is complete'
