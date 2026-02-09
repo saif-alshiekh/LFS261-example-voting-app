@@ -1,3 +1,4 @@
+// Line added by salshiekh
 pipeline {
     agent none
     stages{
@@ -81,7 +82,7 @@ pipeline {
                             docker.build("salshiekh/worker:v${env.BUILD_ID}", "./worker")
                             workerImage.push()
                             workerImage.push("${env.BRANCH_NAME}")
-                            workerImage.push("latest")
+                            workerImage.push("S.latest")
                         }
                     }
                 }
